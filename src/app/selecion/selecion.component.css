@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+.masthead {
+    height: 100vh;
+}
+
 h4,h6,p{
     color: #213c73;
 }.heading{
@@ -45,9 +49,7 @@ p.s{
     justify-content: space-between;
     align-items: center;
 }
-.mt-4{
-    margin-top: 0px !important;
-}
+
 .col-md-2.m-4.col-sm-4.widthw {
     width: 100%;
     max-width: 300px;
@@ -55,29 +57,18 @@ p.s{
 .col-md-1 {
     padding: 0px;
 }
-header.masthead.mt-4 {
-    margin-top: 100px !important;
-    height: 100vh !important;
-}
+
 
 @media only screen and (max-width: 1024px) {
  .nav-footer[_ngcontent-cou-c24]{
        width: 100% !important;
     }
-    header.masthead.mt-4{
-        height: auto !important;
-    }
-    header.masthead.mt-4{
-        margin-top: 40px !important;
-    }
+
 
 }
 
 @media only screen and (max-width: 480px) {
-    header.masthead.mt-4 { 
-        height: auto !important;
-    }
-
+ 
     h4 {
         text-align: center;
         font-size: 30px;
