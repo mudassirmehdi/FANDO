@@ -1,0 +1,166 @@
+
+
+h4,h6,p{
+    color: #213c73;
+}.heading{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}.btm{
+ width: 200px;
+ margin: 5px;
+
+}.align-items-right{
+    margin-left: 150px;
+}
+.lead {
+    margin-top: -14px;
+    font-size: 12px;
+}.sn{
+    margin-left: 20px;
+}.cardcontet{
+    padding: 5px;
+}
+span.cardw {
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+}
+.widthw1 {
+    width: 100% !important;
+    max-width: 162px !important;
+    padding: 0px;
+}
+p.s{
+    margin-bottom: 9px;
+    font-size: 12px;
+    padding: 0px;
+    font-weight: 600;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mt-4{
+    margin-top: 0px !important;
+}
+.col-md-2.m-4.col-sm-4.widthw {
+    width: 100%;
+    max-width: 300px;
+}
+.col-md-1 {
+    padding: 0px;
+}
+header.masthead.mt-4 {
+    margin-top: 100px !important;
+    height: 100vh !important;
+}
+
+@media only screen and (max-width: 1024px) {
+ .nav-footer[_ngcontent-cou-c24]{
+       width: 100% !important;
+    }
+    header.masthead.mt-4{
+        height: auto !important;
+    }
+    header.masthead.mt-4{
+        margin-top: 40px !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    header.masthead.mt-4 { 
+        height: auto !important;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .btm {
+        width: 600px; 
+        padding: 10px;
+
+    }
+
+    table th {
+
+        font-size: 8px;
+
+    }.widthw1{
+        max-width: 100% !important;
+    }
+
+    .cl {
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        text-align: center;
+
+
+    }.sn{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        text-align: center;
+    }p.s{
+        text-align: inherit !important;
+        
+    }.px-5 {
+        padding-right: 2rem!important;
+        padding-left: 1rem!important;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }.rg {
+        display: none;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+
+    h4 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .btm {
+        width: 100%; 
+    }
+   .table {
+        font-size: 5px !important;
+    }.row{
+        margin-left: calc(-0 * var(--bs-gutter-x)) 
+    }
+    .s{
+        text-align: center;
+        
+    }
+
+    .card {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }.rg {
+        display: none;
+        text-align: center;
+    }
+    .align-items-right{
+        margin-left: 0px;
+    }
+}
+
+
+

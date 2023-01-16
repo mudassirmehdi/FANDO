@@ -1,0 +1,35 @@
+a{
+    font-size: 12px;
+    font-weight: 500px;
+    color: #21371c !important;
+}
+header{
+    margin-top: 100px;
+}
+.nav-footer {
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 480px) {
+    a{
+        font-size: 12px;
+        font-weight: 500px;
+    }
+    header{
+        margin-top: 100px;
+    }.nav-footer {
+        width: 100%;
+        }
+
+}
+@media only screen and (max-width: 1024px) {
+    a{
+        font-size: 12px;
+        font-weight: 500px;
+    }
+    header{
+        margin-top: 100px;
+    }
+
+}

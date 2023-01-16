@@ -1,0 +1,39 @@
+.spancolor{
+    color:white;
+    background-color: #213c73;
+}.bord{
+     
+    margin-top: 1px;
+}span{
+    font-size: 12px;
+}.lead {
+    margin-top: -14px;
+    font-size: 16px;
+}.ft{
+    font-size: 12px;
+    text-align: center;
+ 
+
+}
+.spet{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -10px;  
+    text-align: center;
+}
+.head{
+    text-align: center;
+    font: Raleway;
+    color: #213c73;
+}.card {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}.card-body>.row{
+    border-bottom: 1px solid rgb(212, 203, 203);
+
+}.text-blue{
+    color: #213C73;
+}
+.selection-section{
+    width: 100% !important;
+}

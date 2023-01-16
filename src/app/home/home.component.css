@@ -1,0 +1,137 @@
+ 
+
+
+ h1 ,h4,p{
+    color:#213c73;
+ }.bt{
+    width: 200px;
+ }.rd{
+border-left: 2px solid red;
+ }.card{
+    width: 65%;
+ }.card-img{
+    width:600px;
+    margin-left: auto;
+    margin-left: auto;
+ }.play{
+    margin-top: -120px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+ }header{
+    margin-bottom: 100px;
+ }
+ .col-lg-6.second {
+    width: 100% !important;
+    max-width: 511px !important;
+}.col-lg-6.first {
+    width: 59%;
+}.spane{
+    color: #ED2C25;
+}
+.row{
+    justify-content: center !important;
+    align-items: center !important;
+}
+img.card-img.image {
+    width: 100% !important;
+}
+.px-5{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+ /* media query responsive */
+ @media only screen and (max-width: 991px) {
+    .set1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }.bt{
+        margin: 20px;
+        width: 300px;
+    }.card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        --bs-card-border-width: 0px !important;
+
+       
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }.card-img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+  }
+
+  @media only screen and (max-width: 767px) {
+    .set1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }.bt{
+        margin: 20px;
+        width: 300px;
+    }.card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+       
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }.card-img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .nav{
+        justify-content: center !important;
+    }
+  }
+
+ @media only screen and (max-width: 480px) {
+    .set1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }.bt{
+        margin: 20px;
+        width: 300px;
+    }.card{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+       
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }.card-img{
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+   
+
+ 

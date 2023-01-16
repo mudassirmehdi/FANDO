@@ -1,0 +1,10 @@
+ .btn{
+    background-color: #213C73;
+    color: white;
+    font-weight: 600;
+ }
+ .px-5{
+       padding-right: 1rem!important;
+       padding-left: 1rem!important; 
+}
+ 

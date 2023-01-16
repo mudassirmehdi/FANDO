@@ -1,0 +1,150 @@
+
+h4 ,p{
+    color: #213c73;
+
+}.heading1{
+    margin-top: -10px;
+    font-size: 15px;
+}input{
+    width: 75%; 
+    background-color: gainsboro;
+}.rem{
+    margin-top: 5px;
+    margin-left: 324px;
+    font-size: 12px;
+}.ingbtn{
+    width: 75%;
+    
+}header{
+    margin-bottom: 100px;
+}.register{
+    margin-left: 100px;
+    font-size: 12px;
+
+}
+a[_ngcontent-chx-c17] {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-weight: 600;
+}
+a.form1 {
+    color: #5B5B5B;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+}
+.register[_ngcontent-wek-c17]{
+    margin-top: 8px;
+}
+@media only screen and (max-width: 1024px){
+
+    input {
+    text-align: center;
+     margin-left: 0px !important;
+     width: 100%;
+}
+.rem{
+    margin-left: 0px;
+}form{
+    width: 70%;
+    margin: 0px auto;
+}
+.register{
+    margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .heading {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .heading1 {
+        font-weight: bold;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    input {
+        text-align: center;
+        margin-left: 80px;
+        width: 1000px;
+    }
+
+    .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.heading1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+input {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    
+    }.heading{
+        font-weight: bold;
+        font-size: 40px;
+    }.heading1{
+        font-weight: bold;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    input {
+
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+}

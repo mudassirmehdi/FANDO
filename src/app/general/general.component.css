@@ -1,0 +1,119 @@
+h4,h6,p{
+    color: #213c73;
+}.lead {
+    margin-top: -14px;
+    font-size: 12px;
+}.card-img-top{
+    height: 200px;
+}.crd{
+    width: 100px;
+    border: 5px solid white;
+    margin-top: -60px;
+    border-radius: 5px;
+
+}.bgp{
+    background-color: #213c73;
+    color: white;
+}button{
+    color: #213c73;
+    border: 1px solid  #213c73 ;
+    margin-left: auto;
+    margin-right: auto;
+}.btn:hover {
+   color :#A97473 !important;
+    background-color: white !important;
+    border-color:#A97473 !important 
+}.width {
+    max-width: none !important;
+}
+.bgp {
+    background-color: #10347E !important;
+    color: white;
+}
+.card.border-primary.mb-3 {
+    border: 1px solid #efefef !important;
+}
+.card1{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+span.spanes {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer12 {
+    justify-content: center;
+    background-color: #FFFBDA;
+    padding: 14px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    align-items: center;
+    display: flex;
+}
+.align-items-center {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items:flex-start !important;
+}
+
+@media only screen and (max-width:1200px){
+    .table{
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width:1024px){
+
+    
+    .align-items-center{
+        flex-direction: column;
+    }
+    .card1{
+        font-size: 12px;
+    }
+    .align-items-center[_ngcontent-abe-c18]{
+        flex-direction: column !important;
+    }.px-5{
+            padding-right: 1rem!important; 
+            padding-left: 1rem!important;
+    }
+    .card.mb-3 {
+        max-width: 100% !important;
+    }
+    .container.px-5{
+        width: 100%;
+        padding-right: 1rem!important; 
+        padding-left: 1rem!important;
+    }
+    .nav{width: 100% !important;
+    justify-content: center !important; 
+    }
+    
+} 
+@media only screen and (max-width:1024px){
+ul.nav {
+    width: 100% !important;
+    justify-content: center !important;
+}
+}
+
+@media only screen and (max-width:400px){
+
+    .table{
+        font-size: 7px !important;
+    }
+    .card.mb-3 {
+        max-width: 100% !important;
+    }
+} 
