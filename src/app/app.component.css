@@ -1,3 +1,8 @@
-.masthead {
+.footer-main{
+    margin-top: auto;
+}
+.app-main{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
