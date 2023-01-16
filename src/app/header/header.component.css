@@ -5,6 +5,8 @@
     background-color: #213C73;
     color: white;
     font-weight: 600;
- }
+ }a.nav-link.me-lg-3::current{
+   border-bottom: 1px solid #ED2C25;
+}
 
  

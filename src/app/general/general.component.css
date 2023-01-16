@@ -68,6 +68,8 @@ span.spanes {
     flex-wrap: nowrap;
     align-content: flex-start;
     align-items:flex-start !important;
+}.col-lg-6.btn-section {
+    display: contents;
 }
 
 @media only screen and (max-width:1200px){
