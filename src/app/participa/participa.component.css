@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+
+.masthead {
+    padding: 30px 0;
+}
+
 h4,p{
     color: #213c73;
 }.lead {
@@ -10,7 +15,9 @@ h4,p{
     margin-top: 20px;
 }header{
     margin-bottom: 100px;
-}.plus{
+}
+
+.plus{
     width: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -31,4 +38,11 @@ p.card-text {
 img.img-fluid.rounded-start{
     width: 100% !important;
     height: 100% !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .plus {
+        width: 100%;
+    }
 }

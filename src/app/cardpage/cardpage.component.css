@@ -3,3 +3,19 @@
 li>a{
     color:  #213c73;
 }
+
+.bottom-navbar .nav-link {
+    color: #5B5B5B;
+    padding: 0;
+    text-align: left;
+}
+
+.bottom-navbar .nav-item {
+  padding: 12px 30px 12px 0;
+}
+.bottom-navbar .nav-link:hover {
+    border-bottom: 2.5px solid #ED2C25;
+}
+.bottom-navbar .nav-item .active {
+    border-bottom: 2.5px solid #ED2C25;
+}

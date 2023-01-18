@@ -2,6 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 
+.masthead {
+    padding: 50px 0;
+}
+
+.card {
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+border: none;
+}
+
+
 h4,h6,p{
     color: #213c73;
 }.heading{

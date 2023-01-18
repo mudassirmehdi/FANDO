@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 
+
+.masthead {
+    padding: 30px 0;
+}
+
+.card {
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+border: none;
+}
 h4,h6,p{
     color: #213c73;
 }.lead {
     margin-top: -14px;
     font-size: 12px;
 }.card-img-top{
-    height: 200px;
+    /* height: 200px; */
 }.crd{
     width: 100px;
     border: 5px solid white;
@@ -68,9 +79,8 @@ span.spanes {
     flex-wrap: nowrap;
     align-content: flex-start;
     align-items:flex-start !important;
-}.col-lg-6.btn-section {
-    display: contents;
 }
+
 
 @media only screen and (max-width:1200px){
     .table{
@@ -122,3 +132,9 @@ ul.nav {
         max-width: 100% !important;
     }
 } 
+
+.btn-general {
+    background: #213C73;
+    border-radius: 5px;
+    color: #fff;
+}
